@@ -34,7 +34,7 @@ largest_cost = max(cost_list)
 largest_index = cost_list.index(largest_cost)
 print(f"Biggest expense: {expense_list[largest_index]}: ${largest_cost}")
 print("--------------------------------")
-print(f"Total: ${total_cost}")
+print(f"Total spent: ${total_cost}")
 
 
 
