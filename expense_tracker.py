@@ -32,7 +32,7 @@ print(f"You have spent {budget_percent:.1f}% of your budget.")
 print(f"Remaining budget: {remaining_percent:.1f}%")
 
 for i in range (expense_count):
-    print(f"{expense_list[i]}: ({category_list[i]}): ${cost_list[i]}")
+    print(f"{expense_list[i]} ({category_list[i]}): ${cost_list[i]}")
 largest_cost = max(cost_list)
 largest_index = cost_list.index(largest_cost)
 print(f"Biggest expense: {expense_list[largest_index]}: ${largest_cost}")
